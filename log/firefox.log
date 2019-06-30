@@ -1,0 +1,12 @@
+1558754546272	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Mir\\AppData\\Local\\Temp\\rust_mozprofile.JGTOAUkllZAC"
+1558754549113	Marionette	INFO	Listening on port 64208
+1558754549485	Marionette	WARN	TLS certificate errors will be ignored for this session
+1558754549514	Marionette	DEBUG	[6442450945] Frame script loaded
+1558754549515	Marionette	DEBUG	[6442450945] Frame script registered
+1558754551625	Marionette	INFO	Stopped listening on port 64208
+[Parent 10472, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 10472, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8000, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8000, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 589: TypeError: this.tablesData[table] is undefined
+[GPU 3152, Chrome_ChildThread] WARNING: pipe error

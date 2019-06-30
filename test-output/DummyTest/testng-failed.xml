@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [DummyTest]">
+  <test thread-count="5" name="TestA(failed)">
+    <classes>
+      <class name="com.qtpselenium.core.ddf.testcases.DummyTestA">
+        <methods>
+          <include name="testA1"/>
+          <include name="testA2"/>
+          <include name="testA3"/>
+        </methods>
+      </class> <!-- com.qtpselenium.core.ddf.testcases.DummyTestA -->
+    </classes>
+  </test> <!-- TestA(failed) -->
+  <test thread-count="5" name="TestB(failed)">
+    <classes>
+      <class name="com.qtpselenium.core.ddf.testcases.DummyTestB5">
+        <methods>
+          <include name="quit"/>
+          <include name="init"/>
+          <include name="testB" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- com.qtpselenium.core.ddf.testcases.DummyTestB5 -->
+    </classes>
+  </test> <!-- TestB(failed) -->
+</suite> <!-- Failed suite [DummyTest] -->

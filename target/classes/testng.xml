@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DummyTest">
+  <test  name="TestA" allow-return-values = "true">
+    <classes>
+      <class name="com.qtpselenium.core.ddf.testcases.DummyTestA"/>
+    </classes>
+  </test> 
+  <test  name="TestB" allow-return-values = "true">
+    <classes>
+      <class name="com.qtpselenium.core.ddf.testcases.DummyTestB5"/>
+    </classes>
+  </test> 
+  <test  name="TestC" allow-return-values = "true">
+    <classes>
+      <class name="com.qtpselenium.core.ddf.testcases.DummyTestC"/>
+    </classes>
+  </test> 
+</suite> 
